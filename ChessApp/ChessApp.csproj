@@ -1,0 +1,265 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>portable</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="data\db_1000.txt" />
+    <None Remove="data\db_1000_d40.txt" />
+    <None Remove="data\db_2500_d40.txt" />
+    <None Remove="data\db_5000.txt" />
+    <None Remove="data\db_5000_d40.txt" />
+    <None Remove="db\db_1000.txt" />
+    <None Remove="images\brown_bb.png" />
+    <None Remove="images\brown_bb_moved.png" />
+    <None Remove="images\brown_bb_selected.png" />
+    <None Remove="images\brown_bb_target.png" />
+    <None Remove="images\brown_bk.png" />
+    <None Remove="images\brown_bk_moved.png" />
+    <None Remove="images\brown_bk_selected.png" />
+    <None Remove="images\brown_bk_target.png" />
+    <None Remove="images\brown_bn.png" />
+    <None Remove="images\brown_bn_moved.png" />
+    <None Remove="images\brown_bn_selected.png" />
+    <None Remove="images\brown_bn_target.png" />
+    <None Remove="images\brown_bp.png" />
+    <None Remove="images\brown_bp_moved.png" />
+    <None Remove="images\brown_bp_selected.png" />
+    <None Remove="images\brown_bp_target.png" />
+    <None Remove="images\brown_bq.png" />
+    <None Remove="images\brown_bq_moved.png" />
+    <None Remove="images\brown_bq_selected.png" />
+    <None Remove="images\brown_bq_target.png" />
+    <None Remove="images\brown_br.png" />
+    <None Remove="images\brown_br_moved.png" />
+    <None Remove="images\brown_br_selected.png" />
+    <None Remove="images\brown_br_target.png" />
+    <None Remove="images\brown_empty.png" />
+    <None Remove="images\brown_empty_moved.png" />
+    <None Remove="images\brown_empty_target.png" />
+    <None Remove="images\brown_wb.png" />
+    <None Remove="images\brown_wb_moved.png" />
+    <None Remove="images\brown_wb_selected.png" />
+    <None Remove="images\brown_wb_target.png" />
+    <None Remove="images\brown_wk.png" />
+    <None Remove="images\brown_wk_moved.png" />
+    <None Remove="images\brown_wk_selected.png" />
+    <None Remove="images\brown_wk_target.png" />
+    <None Remove="images\brown_wn.png" />
+    <None Remove="images\brown_wn_moved.png" />
+    <None Remove="images\brown_wn_selected.png" />
+    <None Remove="images\brown_wn_target.png" />
+    <None Remove="images\brown_wp.png" />
+    <None Remove="images\brown_wp_moved.png" />
+    <None Remove="images\brown_wp_selected.png" />
+    <None Remove="images\brown_wp_target.png" />
+    <None Remove="images\brown_wq.png" />
+    <None Remove="images\brown_wq_moved.png" />
+    <None Remove="images\brown_wq_selected.png" />
+    <None Remove="images\brown_wq_target.png" />
+    <None Remove="images\brown_wr.png" />
+    <None Remove="images\brown_wr_moved.png" />
+    <None Remove="images\brown_wr_selected.png" />
+    <None Remove="images\brown_wr_target.png" />
+    <None Remove="images\white_bb.png" />
+    <None Remove="images\white_bb_moved.png" />
+    <None Remove="images\white_bb_selected.png" />
+    <None Remove="images\white_bb_target.png" />
+    <None Remove="images\white_bk.png" />
+    <None Remove="images\white_bk_moved.png" />
+    <None Remove="images\white_bk_selected.png" />
+    <None Remove="images\white_bk_target.png" />
+    <None Remove="images\white_bn.png" />
+    <None Remove="images\white_bn_moved.png" />
+    <None Remove="images\white_bn_selected.png" />
+    <None Remove="images\white_bn_target.png" />
+    <None Remove="images\white_bp.png" />
+    <None Remove="images\white_bp_moved.png" />
+    <None Remove="images\white_bp_selected.png" />
+    <None Remove="images\white_bp_target.png" />
+    <None Remove="images\white_bq.png" />
+    <None Remove="images\white_bq_moved.png" />
+    <None Remove="images\white_bq_selected.png" />
+    <None Remove="images\white_bq_target.png" />
+    <None Remove="images\white_br.png" />
+    <None Remove="images\white_br_moved.png" />
+    <None Remove="images\white_br_selected.png" />
+    <None Remove="images\white_br_target.png" />
+    <None Remove="images\white_empty.png" />
+    <None Remove="images\white_empty_moved.png" />
+    <None Remove="images\white_empty_target.png" />
+    <None Remove="images\white_wb.png" />
+    <None Remove="images\white_wb_moved.png" />
+    <None Remove="images\white_wb_selected.png" />
+    <None Remove="images\white_wb_target.png" />
+    <None Remove="images\white_wk.png" />
+    <None Remove="images\white_wk_moved.png" />
+    <None Remove="images\white_wk_selected.png" />
+    <None Remove="images\white_wk_target.png" />
+    <None Remove="images\white_wn.png" />
+    <None Remove="images\white_wn_moved.png" />
+    <None Remove="images\white_wn_selected.png" />
+    <None Remove="images\white_wn_target.png" />
+    <None Remove="images\white_wp.png" />
+    <None Remove="images\white_wp_moved.png" />
+    <None Remove="images\white_wp_selected.png" />
+    <None Remove="images\white_wp_target.png" />
+    <None Remove="images\white_wq.png" />
+    <None Remove="images\white_wq_moved.png" />
+    <None Remove="images\white_wq_selected.png" />
+    <None Remove="images\white_wq_target.png" />
+    <None Remove="images\white_wr.png" />
+    <None Remove="images\white_wr_moved.png" />
+    <None Remove="images\white_wr_selected.png" />
+    <None Remove="images\white_wr_target.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="data\db_1000_d40.txt" />
+    <EmbeddedResource Include="data\db_2500_d40.txt" />
+    <EmbeddedResource Include="data\db_5000_d40.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="images\brown_bb.png" />
+    <EmbeddedResource Include="images\brown_bb_moved.png" />
+    <EmbeddedResource Include="images\brown_bb_selected.png" />
+    <EmbeddedResource Include="images\brown_bb_target.png" />
+    <EmbeddedResource Include="images\brown_bk.png" />
+    <EmbeddedResource Include="images\brown_bk_moved.png" />
+    <EmbeddedResource Include="images\brown_bk_selected.png" />
+    <EmbeddedResource Include="images\brown_bk_target.png" />
+    <EmbeddedResource Include="images\brown_bn.png" />
+    <EmbeddedResource Include="images\brown_bn_moved.png" />
+    <EmbeddedResource Include="images\brown_bn_selected.png" />
+    <EmbeddedResource Include="images\brown_bn_target.png" />
+    <EmbeddedResource Include="images\brown_bp.png" />
+    <EmbeddedResource Include="images\brown_bp_moved.png" />
+    <EmbeddedResource Include="images\brown_bp_selected.png" />
+    <EmbeddedResource Include="images\brown_bp_target.png" />
+    <EmbeddedResource Include="images\brown_bq.png" />
+    <EmbeddedResource Include="images\brown_bq_moved.png" />
+    <EmbeddedResource Include="images\brown_bq_selected.png" />
+    <EmbeddedResource Include="images\brown_bq_target.png" />
+    <EmbeddedResource Include="images\brown_br.png" />
+    <EmbeddedResource Include="images\brown_br_moved.png" />
+    <EmbeddedResource Include="images\brown_br_selected.png" />
+    <EmbeddedResource Include="images\brown_br_target.png" />
+    <EmbeddedResource Include="images\brown_empty.png" />
+    <EmbeddedResource Include="images\brown_empty_moved.png" />
+    <EmbeddedResource Include="images\brown_empty_target.png" />
+    <EmbeddedResource Include="images\brown_wb.png" />
+    <EmbeddedResource Include="images\brown_wb_moved.png" />
+    <EmbeddedResource Include="images\brown_wb_selected.png" />
+    <EmbeddedResource Include="images\brown_wb_target.png" />
+    <EmbeddedResource Include="images\brown_wk.png" />
+    <EmbeddedResource Include="images\brown_wk_moved.png" />
+    <EmbeddedResource Include="images\brown_wk_selected.png" />
+    <EmbeddedResource Include="images\brown_wk_target.png" />
+    <EmbeddedResource Include="images\brown_wn.png" />
+    <EmbeddedResource Include="images\brown_wn_moved.png" />
+    <EmbeddedResource Include="images\brown_wn_selected.png" />
+    <EmbeddedResource Include="images\brown_wn_target.png" />
+    <EmbeddedResource Include="images\brown_wp.png" />
+    <EmbeddedResource Include="images\brown_wp_moved.png" />
+    <EmbeddedResource Include="images\brown_wp_selected.png" />
+    <EmbeddedResource Include="images\brown_wp_target.png" />
+    <EmbeddedResource Include="images\brown_wq.png" />
+    <EmbeddedResource Include="images\brown_wq_moved.png" />
+    <EmbeddedResource Include="images\brown_wq_selected.png" />
+    <EmbeddedResource Include="images\brown_wq_target.png" />
+    <EmbeddedResource Include="images\brown_wr.png" />
+    <EmbeddedResource Include="images\brown_wr_moved.png" />
+    <EmbeddedResource Include="images\brown_wr_selected.png" />
+    <EmbeddedResource Include="images\brown_wr_target.png" />
+    <EmbeddedResource Include="images\white_bb.png" />
+    <EmbeddedResource Include="images\white_bb_moved.png" />
+    <EmbeddedResource Include="images\white_bb_selected.png" />
+    <EmbeddedResource Include="images\white_bb_target.png" />
+    <EmbeddedResource Include="images\white_bk.png" />
+    <EmbeddedResource Include="images\white_bk_moved.png" />
+    <EmbeddedResource Include="images\white_bk_selected.png" />
+    <EmbeddedResource Include="images\white_bk_target.png" />
+    <EmbeddedResource Include="images\white_bn.png" />
+    <EmbeddedResource Include="images\white_bn_moved.png" />
+    <EmbeddedResource Include="images\white_bn_selected.png" />
+    <EmbeddedResource Include="images\white_bn_target.png" />
+    <EmbeddedResource Include="images\white_bp.png" />
+    <EmbeddedResource Include="images\white_bp_moved.png" />
+    <EmbeddedResource Include="images\white_bp_selected.png" />
+    <EmbeddedResource Include="images\white_bp_target.png" />
+    <EmbeddedResource Include="images\white_bq.png" />
+    <EmbeddedResource Include="images\white_bq_moved.png" />
+    <EmbeddedResource Include="images\white_bq_selected.png" />
+    <EmbeddedResource Include="images\white_bq_target.png" />
+    <EmbeddedResource Include="images\white_br.png" />
+    <EmbeddedResource Include="images\white_br_moved.png" />
+    <EmbeddedResource Include="images\white_br_selected.png" />
+    <EmbeddedResource Include="images\white_br_target.png" />
+    <EmbeddedResource Include="images\white_empty.png" />
+    <EmbeddedResource Include="images\white_empty_moved.png" />
+    <EmbeddedResource Include="images\white_empty_target.png" />
+    <EmbeddedResource Include="images\white_wb.png" />
+    <EmbeddedResource Include="images\white_wb_moved.png" />
+    <EmbeddedResource Include="images\white_wb_selected.png" />
+    <EmbeddedResource Include="images\white_wb_target.png" />
+    <EmbeddedResource Include="images\white_wk.png" />
+    <EmbeddedResource Include="images\white_wk_moved.png" />
+    <EmbeddedResource Include="images\white_wk_selected.png" />
+    <EmbeddedResource Include="images\white_wk_target.png" />
+    <EmbeddedResource Include="images\white_wn.png" />
+    <EmbeddedResource Include="images\white_wn_moved.png" />
+    <EmbeddedResource Include="images\white_wn_selected.png" />
+    <EmbeddedResource Include="images\white_wn_target.png" />
+    <EmbeddedResource Include="images\white_wp.png" />
+    <EmbeddedResource Include="images\white_wp_moved.png" />
+    <EmbeddedResource Include="images\white_wp_selected.png" />
+    <EmbeddedResource Include="images\white_wp_target.png" />
+    <EmbeddedResource Include="images\white_wq.png" />
+    <EmbeddedResource Include="images\white_wq_moved.png" />
+    <EmbeddedResource Include="images\white_wq_selected.png" />
+    <EmbeddedResource Include="images\white_wq_target.png" />
+    <EmbeddedResource Include="images\white_wr.png" />
+    <EmbeddedResource Include="images\white_wr_moved.png" />
+    <EmbeddedResource Include="images\white_wr_selected.png" />
+    <EmbeddedResource Include="images\white_wr_target.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Acr.UserDialogs" Version="7.1.0.514" />
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2012" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.6.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="db\db_1000.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Chessboard.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="chessboardFlyout.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="GameSettings.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SelectionPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Trainingboard.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Trainingsettings.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

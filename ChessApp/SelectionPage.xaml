@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ChessApp.SelectionPage"
+             NavigationPage.HasNavigationBar="False">
+    <StackLayout BackgroundColor="#777777">
+        <StackLayout VerticalOptions="FillAndExpand" Margin="20,10,20,10" Spacing="5">
+            
+            <Frame BackgroundColor="#333333" Padding="10,5,10,5" CornerRadius="10">
+                <StackLayout VerticalOptions="FillAndExpand">
+                    <Label  x:Name="label_title" Text="Title" TextColor="White" FontAttributes="Bold" FontSize="20" Padding="0" VerticalOptions="CenterAndExpand" HorizontalTextAlignment="Center"/>
+                </StackLayout >
+            </Frame>
+        
+            <ListView x:Name="listview"
+                    ItemsSource="{Binding Items}"
+                    ItemTapped="Handle_ItemTapped"
+                    CachingStrategy="RecycleElement"
+                    BackgroundColor="#333333"
+                    HasUnevenRows="True">
+    
+                <!--Custom View Cells-->
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Label Text="{Binding .}" TextColor="White" FontSize="16" Style="{DynamicResource ListItemTextStyle}" Padding="15,12,15,12"/>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            
+            <Button x:Name="btn_accept" Text="OK" BackgroundColor="#333333" BorderColor="White" BorderWidth="1" FontSize="16" TextColor="#EEEEEE" Margin="0"  Padding="0" CornerRadius="10" Clicked="OnAccept"/>
+            <Button x:Name="btn_cancel" Text="Cancel" BackgroundColor="#333333" BorderColor="White" BorderWidth="1" FontSize="16" TextColor="#EEEEEE" Margin="0" Padding="0" CornerRadius="10" Clicked="OnCancel"/>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:ChessApp;assembly=ChessApp"
+             x:Class="ChessApp.Trainingboard"
+             NavigationPage.HasNavigationBar="False">
+    <ScrollView>
+        <StackLayout BackgroundColor="#777777">
+            <StackLayout VerticalOptions="FillAndExpand" Margin="20,10,20,10" Spacing="5">
+
+                <Frame BackgroundColor="#333333" Padding="10,5,10,5" CornerRadius="10">
+                    <StackLayout VerticalOptions="FillAndExpand">
+                        <Grid ColumnSpacing="1" RowSpacing="1" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" >
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+
+                            <Label Text="Trials" TextColor="White" Grid.Row="0" Grid.Column="0" FontSize="12" HorizontalTextAlignment="Center" VerticalOptions="CenterAndExpand"/>
+                            <Label Text="Today's Score" TextColor="White" Grid.Row="0" Grid.Column="1" FontSize="12" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalOptions="CenterAndExpand"/>
+                            <Label Text="Highscore" TextColor="White" Grid.Row="0" Grid.Column="2" FontSize="12" HorizontalTextAlignment="Center" VerticalOptions="CenterAndExpand"/>
+
+                            <Label x:Name="label_trials" Text="" TextColor="White" Grid.Row="1" Grid.Column="0" FontSize="12" HorizontalTextAlignment="Center" VerticalOptions="CenterAndExpand"/>
+                            <Label x:Name="label_score" Text="" TextColor="White" Grid.Row="1" Grid.Column="1" FontSize="12" HorizontalTextAlignment="Center" FontAttributes="Bold" VerticalOptions="CenterAndExpand"/>
+                            <Label x:Name="label_highscore" Text="" TextColor="White" Grid.Row="1" Grid.Column="2" FontSize="12" HorizontalTextAlignment="Center" VerticalOptions="CenterAndExpand"/>
+                        </Grid>
+                    </StackLayout >
+                </Frame>
+
+                <Frame x:Name="task_frame" BackgroundColor="#333333" Padding="10,5,10,5" CornerRadius="10">
+                    <StackLayout VerticalOptions="StartAndExpand">
+                        <Label x:Name="label_task" Text="" TextColor="White" FontSize="16" HorizontalTextAlignment="Center" VerticalOptions="CenterAndExpand" />
+                    </StackLayout >
+                </Frame>
+
+                <Frame VerticalOptions="Center" BackgroundColor="#333333" Padding="5,5,5,5" CornerRadius="10">
+                    <StackLayout x:Name="grid_stack" VerticalOptions="FillAndExpand">
+                        <Grid x:Name="mygrid" RowSpacing="0" ColumnSpacing="0" HeightRequest="{Binding Source={x:Reference mygrid}, Path=Width}" VerticalOptions="Center" HorizontalOptions="Center">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                            </Grid.RowDefinitions>
+                        </Grid>
+
+                        <Label x:Name="label_moves" TextColor="White" BackgroundColor="#555555" FontSize="18" Text="" />
+                    </StackLayout >
+                </Frame>
+
+                <Button Text="Show solution" BackgroundColor="#333333" BorderColor="White" BorderWidth="1" FontSize="16" TextColor="#EEEEEE" Margin="0"  Padding="0" CornerRadius="10" Clicked="ShowSolution"/>
+                <Button x:Name="btn_switch" Text="Choose Line" BackgroundColor="#333333" BorderColor="White" BorderWidth="1" FontSize="16" TextColor="#EEEEEE" Margin="0" Padding="0" CornerRadius="10" Clicked="OnBtnSwitch"/>
+
+            </StackLayout>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

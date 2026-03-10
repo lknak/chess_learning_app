@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:ChessApp;assembly=ChessApp"
+             x:Class="ChessApp.Chessboard"
+             NavigationPage.HasNavigationBar="False">
+    <ScrollView>
+        <StackLayout BackgroundColor="#777777">
+            <StackLayout VerticalOptions="FillAndExpand" Margin="20" Spacing="5">
+
+                <Frame BackgroundColor="#333333" Padding="10,5,10,5" CornerRadius="10">
+                    <StackLayout VerticalOptions="FillAndExpand">
+                        <Label Text="Chessboard" TextColor="White" FontAttributes="Bold" TextDecorations="Underline" FontSize="20" Padding="0" VerticalOptions="CenterAndExpand" HorizontalTextAlignment="Center"/>
+                    </StackLayout >
+                </Frame>
+
+                <Frame BackgroundColor="#333333" Padding="10,5,10,5" CornerRadius="10">
+                    <StackLayout VerticalOptions="FillAndExpand">
+                        <Grid ColumnSpacing="0" BackgroundColor="#555555" VerticalOptions="CenterAndExpand" >
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*" />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+
+                            <Label x:Name="label_time_white" Text="" TextColor="White" FontAttributes="Bold" FontSize="16" Grid.Row="0" Grid.Column="0" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+                            <Label x:Name="label_gamestate" Text="" TextColor="White" FontAttributes="Bold" TextDecorations="Underline" FontSize="16" Grid.Row="0" Grid.Column="1" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+                            <Label x:Name="label_time_black" Text="" TextColor="White" FontAttributes="Bold" FontSize="16" Grid.Row="0" Grid.Column="2" Rotation="180" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+                        </Grid>
+
+                        <Grid x:Name="mygrid" RowSpacing="0" ColumnSpacing="0"  HeightRequest="{Binding Source={x:Reference mygrid}, Path=Width}" VerticalOptions="Center" HorizontalOptions="Center">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                            </Grid.RowDefinitions>
+                        </Grid>
+                    </StackLayout >
+                </Frame>
+
+                <Button Text="Reverse move" BackgroundColor="#333333" BorderColor="White" BorderWidth="1" FontSize="16" TextColor="#EEEEEE" Padding="10" CornerRadius="10" Clicked="reverseMove"/>
+                <Frame Padding="5" Opacity="0"/>
+
+                <Frame BackgroundColor="#333333" Padding="10,10,10,10" CornerRadius="10">
+                    <StackLayout VerticalOptions="FillAndExpand">
+                        <Label x:Name="label_fen" TextColor="White" BackgroundColor="#555555" FontSize="14" Text="FEN" >
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="OnCopyFEN" NumberOfTapsRequired="2"/>
+                            </Label.GestureRecognizers>
+                        </Label>
+                        <Label x:Name="label_moves" TextColor="White" BackgroundColor="#555555" FontSize="14" Text="PGN">
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="OnCopyPGN" NumberOfTapsRequired="2"/>
+                            </Label.GestureRecognizers>
+                        </Label>
+                    </StackLayout >
+                </Frame>
+            </StackLayout>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

@@ -1,0 +1,440 @@
+|e4|c5;e5|B00 King's Pawn
+-|c5|Nf3;Nc3;c3;d3|B20 Sicilian Defense
+--|Nf3|d6;Nc6;e6;g6;a6|B27 Sicilian Defense
+---|d6|d4;Bb5+;c3;Nc3|B50 Sicilian Defense
+----|d4|cxd4;Nf6;Nd7|B50 Sicilian Defense
+-----|cxd4|Nxd4;Qxd4;c3|B50 Sicilian Defense
+------|Nxd4|Nf6;a6|B50 Sicilian Defense
+-------|Nf6|Nc3;f3|B54 Sicilian Defense: Modern Variations, Main Line
+--------|Nc3|a6;Nc6;g6;e6;Bd7|B56 Sicilian Defense: Modern Variations
+---------|a6|Be3;Bg5;Be2;Bc4;h3;f3|B90 Sicilian Defense: Najdorf Variation
+----------|Be3|e5;e6;Ng4|B90 Sicilian Defense: Najdorf Variation, English Attack
+-----------|e5|Nb3;Nf3|B90 Sicilian Defense: Najdorf Variation, English Attack
+------------|Nb3|Be6;Be7|B90 Sicilian Defense: Najdorf Variation, English Attack
+-------------|Be6|f3;Qd2|B90 Sicilian Defense: Najdorf Variation, English Attack
+--------------|f3|Be7;h5|B90 Sicilian Defense: Najdorf Variation, English Attack
+---------------|Be7|Qd2;g4|B90 Sicilian Defense: Najdorf Variation, English Attack
+----------------|Qd2|O-O;Nbd7|B90 Sicilian Defense: Najdorf Variation, English Attack
+-----------------|O-O|O-O-O;g4|B90 Sicilian Defense: Najdorf Variation, English Attack
+------------------|O-O-O|Nbd7|B90 Sicilian Defense: Najdorf Variation, English Attack
+-------------------|Nbd7||B90 Sicilian Defense: Najdorf Variation, English Attack
+------------------|g4||B90 Sicilian Defense: Najdorf Variation, English Attack
+-----------------|Nbd7||B90 Sicilian Defense: Najdorf Variation, English Attack
+----------------|g4||B90 Sicilian Defense: Najdorf Variation, English Attack
+---------------|h5||B90 Sicilian Defense: Najdorf Variation, English Attack
+--------------|Qd2||B90 Sicilian Defense: Najdorf Variation, English Attack
+-------------|Be7||B90 Sicilian Defense: Najdorf Variation, English Attack
+------------|Nf3||B90 Sicilian Defense: Najdorf Variation, English Attack
+-----------|e6|f3|B90 Sicilian Defense: Najdorf Variation, English Attack
+------------|f3||B90 Sicilian Defense: Najdorf Variation, English Attack
+-----------|Ng4||B90 Sicilian Defense: Najdorf Variation, English Attack
+----------|Bg5|e6;Nbd7|B94 Sicilian Defense: Najdorf Variation
+-----------|e6|f4;Qf3|B95 Sicilian Defense: Najdorf Variation
+------------|f4|Qb6;Be7|B96 Sicilian Defense: Najdorf Variation
+-------------|Qb6|Qd2|B97 Sicilian Defense: Najdorf Variation, Poisoned Pawn Variation
+--------------|Qd2||B97 Sicilian Defense: Najdorf Variation, Poisoned Pawn Variation
+-------------|Be7||B96 Sicilian Defense: Najdorf Variation
+------------|Qf3||B95 Sicilian Defense: Najdorf Variation
+-----------|Nbd7||B94 Sicilian Defense: Najdorf Variation
+----------|Be2|e5;e6|B92 Sicilian Defense: Najdorf Variation, Opocensky Variation
+-----------|e5|Nb3;Nf3|B92 Sicilian Defense: Najdorf Variation, Opocensky Variation
+------------|Nb3|Be7;Be6|B92 Sicilian Defense: Najdorf Variation, Opocensky Variation
+-------------|Be7|O-O;Be3|B92 Sicilian Defense: Najdorf Variation, Opocensky Variation
+--------------|O-O|O-O|B92 Sicilian Defense: Najdorf Variation, Opocensky Variation
+---------------|O-O||B92 Sicilian Defense: Najdorf Variation, Opocensky Variation
+--------------|Be3||B92 Sicilian Defense: Najdorf Variation, Opocensky Variation
+-------------|Be6||B92 Sicilian Defense: Najdorf Variation, Opocensky Variation
+------------|Nf3||B92 Sicilian Defense: Najdorf Variation, Opocensky Variation
+-----------|e6||B92 Sicilian Defense: Najdorf Variation, Opocensky Variation
+----------|Bc4|e6;b5|B90 Sicilian Defense: Najdorf Variation, Lipnitsky Attack
+-----------|e6|Bb3;O-O|B90 Sicilian Defense: Najdorf Variation, Lipnitsky Attack
+------------|Bb3|b5|B90 Sicilian Defense: Najdorf Variation, Lipnitsky Attack
+-------------|b5||B90 Sicilian Defense: Najdorf Variation, Lipnitsky Attack
+------------|O-O||B90 Sicilian Defense: Najdorf Variation, Lipnitsky Attack
+-----------|b5||B90 Sicilian Defense: Najdorf Variation, Lipnitsky Attack
+----------|h3|e5|B90 Sicilian Defense: Najdorf Variation, Adams Attack
+-----------|e5||B90 Sicilian Defense: Najdorf Variation, Adams Attack
+----------|f3||B90 Sicilian Defense: Najdorf Variation
+---------|Nc6|Bg5;Bc4;Be2|B56 Sicilian Defense: Classical Variation
+----------|Bg5|e6;Bd7|B60 Sicilian Defense: Richter-Rauzer Variation
+-----------|e6|Qd2;Bb5|B62 Sicilian Defense: Richter-Rauzer Variation
+------------|Qd2|a6;Be7|B63 Sicilian Defense: Richter-Rauzer Variation, Traditional Variation
+-------------|a6|O-O-O;Be2|B66 Sicilian Defense: Richter-Rauzer Variation, Neo-Modern Variation, Early Deviations
+--------------|O-O-O|Bd7;h6|B66 Sicilian Defense: Richter-Rauzer Variation, Neo-Modern Variation, Early Deviations
+---------------|Bd7|f4|B67 Sicilian Defense: Richter-Rauzer Variation, Neo-Modern Variation
+----------------|f4||B67 Sicilian Defense: Richter-Rauzer Variation, Neo-Modern Variation
+---------------|h6||B66 Sicilian Defense: Richter-Rauzer Variation, Neo-Modern Variation, Early Deviations
+--------------|Be2||B66 Sicilian Defense: Richter-Rauzer Variation, Neo-Modern Variation, Early Deviations
+-------------|Be7||B63 Sicilian Defense: Richter-Rauzer Variation, Traditional Variation
+------------|Bb5||B62 Sicilian Defense: Richter-Rauzer Variation
+-----------|Bd7||B60 Sicilian Defense: Richter-Rauzer Variation
+----------|Bc4|e6|B57 Sicilian Defense: Sozin, not Scheveningen
+-----------|e6||B57 Sicilian Defense: Sozin, not Scheveningen
+----------|Be2||B56 Sicilian Defense: Classical Variation
+---------|g6|Be3;Be2|B70 Sicilian Defense: Dragon Variation
+----------|Be3|Bg7;a6|B72 Sicilian Defense: Dragon Variation
+-----------|Bg7|f3;Be2|B72 Sicilian Defense: Dragon Variation
+------------|f3|O-O;Nc6|B75 Sicilian Defense: Dragon Variation, Yugoslav Attack, Early Deviations
+-------------|O-O|Qd2;Bc4|B76 Sicilian Defense: Dragon Variation, Yugoslav Attack
+--------------|Qd2|Nc6;d5|B76 Sicilian Defense: Dragon Variation, Yugoslav Attack
+---------------|Nc6|Bc4|B76 Sicilian Defense: Dragon Variation, Yugoslav Attack
+----------------|Bc4||B76 Sicilian Defense: Dragon Variation, Yugoslav Attack
+---------------|d5||B76 Sicilian Defense: Dragon Variation, Yugoslav Attack
+--------------|Bc4||B76 Sicilian Defense: Dragon Variation, Yugoslav Attack
+-------------|Nc6||B75 Sicilian Defense: Dragon Variation, Yugoslav Attack, Early Deviations
+------------|Be2||B72 Sicilian Defense: Dragon Variation
+-----------|a6||B72 Sicilian Defense: Dragon Variation
+----------|Be2||B70 Sicilian Defense: Dragon Variation
+---------|e6|g4|B80 Sicilian Defense: Scheveningen Variation
+----------|g4||B80 Sicilian Defense: Scheveningen Variation
+---------|Bd7||B56 Sicilian Defense: Modern Variations
+--------|f3||B54 Sicilian Defense: Modern Variations, Main Line
+-------|a6||B50 Sicilian Defense
+------|Qxd4|Nc6|B53 Sicilian Defense: Chekhover Variation
+-------|Nc6||B53 Sicilian Defense: Chekhover Variation
+------|c3||B50 Sicilian Defense
+-----|Nf6|Nc3;dxc5|B50 Sicilian Defense: Modern Variations, Anti-Qxd4 Move Order
+------|Nc3|cxd4;a6|B50 Sicilian Defense: Modern Variations, Anti-Qxd4 Move Order
+-------|cxd4|Nxd4;Qxd4|B50 Sicilian Defense: Modern Variations, Anti-Qxd4 Move Order
+--------|Nxd4|a6;Nc6;g6;e6;Bd7|B56 Sicilian Defense: Modern Variations
+---------|a6|Be3;Bg5;Be2;Bc4;h3;f3|B90 Sicilian Defense: Najdorf Variation
+----------|Be3|e5;e6;Ng4|B90 Sicilian Defense: Najdorf Variation, English Attack
+-----------|e5|Nb3;Nf3|B90 Sicilian Defense: Najdorf Variation, English Attack
+------------|Nb3|Be6;Be7|B90 Sicilian Defense: Najdorf Variation, English Attack
+-------------|Be6|f3;Qd2|B90 Sicilian Defense: Najdorf Variation, English Attack
+--------------|f3|Be7;h5|B90 Sicilian Defense: Najdorf Variation, English Attack
+---------------|Be7|Qd2;g4|B90 Sicilian Defense: Najdorf Variation, English Attack
+----------------|Qd2|O-O;Nbd7|B90 Sicilian Defense: Najdorf Variation, English Attack
+-----------------|O-O|O-O-O;g4|B90 Sicilian Defense: Najdorf Variation, English Attack
+------------------|O-O-O|Nbd7|B90 Sicilian Defense: Najdorf Variation, English Attack
+-------------------|Nbd7||B90 Sicilian Defense: Najdorf Variation, English Attack
+------------------|g4||B90 Sicilian Defense: Najdorf Variation, English Attack
+-----------------|Nbd7||B90 Sicilian Defense: Najdorf Variation, English Attack
+----------------|g4||B90 Sicilian Defense: Najdorf Variation, English Attack
+---------------|h5||B90 Sicilian Defense: Najdorf Variation, English Attack
+--------------|Qd2||B90 Sicilian Defense: Najdorf Variation, English Attack
+-------------|Be7||B90 Sicilian Defense: Najdorf Variation, English Attack
+------------|Nf3||B90 Sicilian Defense: Najdorf Variation, English Attack
+-----------|e6|f3|B90 Sicilian Defense: Najdorf Variation, English Attack
+------------|f3||B90 Sicilian Defense: Najdorf Variation, English Attack
+-----------|Ng4||B90 Sicilian Defense: Najdorf Variation, English Attack
+----------|Bg5|e6;Nbd7|B94 Sicilian Defense: Najdorf Variation
+-----------|e6|f4;Qf3|B95 Sicilian Defense: Najdorf Variation
+------------|f4|Qb6;Be7|B96 Sicilian Defense: Najdorf Variation
+-------------|Qb6|Qd2|B97 Sicilian Defense: Najdorf Variation, Poisoned Pawn Variation
+--------------|Qd2||B97 Sicilian Defense: Najdorf Variation, Poisoned Pawn Variation
+-------------|Be7||B96 Sicilian Defense: Najdorf Variation
+------------|Qf3||B95 Sicilian Defense: Najdorf Variation
+-----------|Nbd7||B94 Sicilian Defense: Najdorf Variation
+----------|Be2|e5;e6|B92 Sicilian Defense: Najdorf Variation, Opocensky Variation
+-----------|e5|Nb3;Nf3|B92 Sicilian Defense: Najdorf Variation, Opocensky Variation
+------------|Nb3|Be7;Be6|B92 Sicilian Defense: Najdorf Variation, Opocensky Variation
+-------------|Be7|O-O;Be3|B92 Sicilian Defense: Najdorf Variation, Opocensky Variation
+--------------|O-O|O-O|B92 Sicilian Defense: Najdorf Variation, Opocensky Variation
+---------------|O-O||B92 Sicilian Defense: Najdorf Variation, Opocensky Variation
+--------------|Be3||B92 Sicilian Defense: Najdorf Variation, Opocensky Variation
+-------------|Be6||B92 Sicilian Defense: Najdorf Variation, Opocensky Variation
+------------|Nf3||B92 Sicilian Defense: Najdorf Variation, Opocensky Variation
+-----------|e6||B92 Sicilian Defense: Najdorf Variation, Opocensky Variation
+----------|Bc4|e6;b5|B90 Sicilian Defense: Najdorf Variation, Lipnitsky Attack
+-----------|e6|Bb3;O-O|B90 Sicilian Defense: Najdorf Variation, Lipnitsky Attack
+------------|Bb3|b5|B90 Sicilian Defense: Najdorf Variation, Lipnitsky Attack
+-------------|b5||B90 Sicilian Defense: Najdorf Variation, Lipnitsky Attack
+------------|O-O||B90 Sicilian Defense: Najdorf Variation, Lipnitsky Attack
+-----------|b5||B90 Sicilian Defense: Najdorf Variation, Lipnitsky Attack
+----------|h3|e5|B90 Sicilian Defense: Najdorf Variation, Adams Attack
+-----------|e5||B90 Sicilian Defense: Najdorf Variation, Adams Attack
+----------|f3||B90 Sicilian Defense: Najdorf Variation
+---------|Nc6|Bg5;Bc4;Be2|B56 Sicilian Defense: Classical Variation
+----------|Bg5|e6;Bd7|B60 Sicilian Defense: Richter-Rauzer Variation
+-----------|e6|Qd2;Bb5|B62 Sicilian Defense: Richter-Rauzer Variation
+------------|Qd2|a6;Be7|B63 Sicilian Defense: Richter-Rauzer Variation, Traditional Variation
+-------------|a6|O-O-O;Be2|B66 Sicilian Defense: Richter-Rauzer Variation, Neo-Modern Variation, Early Deviations
+--------------|O-O-O|Bd7;h6|B66 Sicilian Defense: Richter-Rauzer Variation, Neo-Modern Variation, Early Deviations
+---------------|Bd7|f4|B67 Sicilian Defense: Richter-Rauzer Variation, Neo-Modern Variation
+----------------|f4||B67 Sicilian Defense: Richter-Rauzer Variation, Neo-Modern Variation
+---------------|h6||B66 Sicilian Defense: Richter-Rauzer Variation, Neo-Modern Variation, Early Deviations
+--------------|Be2||B66 Sicilian Defense: Richter-Rauzer Variation, Neo-Modern Variation, Early Deviations
+-------------|Be7||B63 Sicilian Defense: Richter-Rauzer Variation, Traditional Variation
+------------|Bb5||B62 Sicilian Defense: Richter-Rauzer Variation
+-----------|Bd7||B60 Sicilian Defense: Richter-Rauzer Variation
+----------|Bc4|e6|B57 Sicilian Defense: Sozin, not Scheveningen
+-----------|e6||B57 Sicilian Defense: Sozin, not Scheveningen
+----------|Be2||B56 Sicilian Defense: Classical Variation
+---------|g6|Be3;Be2|B70 Sicilian Defense: Dragon Variation
+----------|Be3|Bg7;a6|B72 Sicilian Defense: Dragon Variation
+-----------|Bg7|f3;Be2|B72 Sicilian Defense: Dragon Variation
+------------|f3|O-O;Nc6|B75 Sicilian Defense: Dragon Variation, Yugoslav Attack, Early Deviations
+-------------|O-O|Qd2;Bc4|B76 Sicilian Defense: Dragon Variation, Yugoslav Attack
+--------------|Qd2|Nc6;d5|B76 Sicilian Defense: Dragon Variation, Yugoslav Attack
+---------------|Nc6|Bc4|B76 Sicilian Defense: Dragon Variation, Yugoslav Attack
+----------------|Bc4||B76 Sicilian Defense: Dragon Variation, Yugoslav Attack
+---------------|d5||B76 Sicilian Defense: Dragon Variation, Yugoslav Attack
+--------------|Bc4||B76 Sicilian Defense: Dragon Variation, Yugoslav Attack
+-------------|Nc6||B75 Sicilian Defense: Dragon Variation, Yugoslav Attack, Early Deviations
+------------|Be2||B72 Sicilian Defense: Dragon Variation
+-----------|a6||B72 Sicilian Defense: Dragon Variation
+----------|Be2||B70 Sicilian Defense: Dragon Variation
+---------|e6|g4|B80 Sicilian Defense: Scheveningen Variation
+----------|g4||B80 Sicilian Defense: Scheveningen Variation
+---------|Bd7||B56 Sicilian Defense: Modern Variations
+--------|Qxd4||B50 Sicilian Defense: Modern Variations, Anti-Qxd4 Move Order
+-------|a6||B50 Sicilian Defense: Modern Variations, Anti-Qxd4 Move Order
+------|dxc5||B50 Sicilian Defense: Modern Variations, Anti-Qxd4 Move Order
+-----|Nd7||B50 Sicilian Defense
+----|Bb5+|Bd7;Nd7;Nc6|B51 Sicilian Defense: Moscow Variation
+-----|Bd7|Bxd7+;c4|B52 Sicilian Defense: Canal Attack, Main Line
+------|Bxd7+|Qxd7;Nxd7|B52 Sicilian Defense: Canal Attack, Main Line
+-------|Qxd7|O-O|B52 Sicilian Defense: Canal Attack, Main Line
+--------|O-O||B52 Sicilian Defense: Canal Attack, Main Line
+-------|Nxd7||B52 Sicilian Defense: Canal Attack, Main Line
+------|c4||B52 Sicilian Defense: Canal Attack, Main Line
+-----|Nd7|d4|B51 Sicilian Defense: Moscow Variation
+------|d4||B51 Sicilian Defense: Moscow Variation
+-----|Nc6||B51 Sicilian Defense: Moscow Variation
+----|c3|Nf6;g6|B50 Sicilian Defense: Delayed Alapin
+-----|Nf6|Be2|B50 Sicilian Defense: Delayed Alapin
+------|Be2||B50 Sicilian Defense: Delayed Alapin
+-----|g6||B50 Sicilian Defense: Delayed Alapin
+----|Nc3||B50 Sicilian Defense
+---|Nc6|d4;Bb5;Nc3;c3|B30 Sicilian Defense: Old Sicilian
+----|d4|cxd4;g6|B32 Sicilian Defense: Open
+-----|cxd4|Nxd4;c3|B32 Sicilian Defense: Open
+------|Nxd4|Nf6;g6;e5;e6|B32 Sicilian Defense: Open
+-------|Nf6|Nc3;Nxc6|B33 Sicilian Defense: Open
+--------|Nc3|e5;d6;e6|B33 Sicilian Defense: Open
+---------|e5|Ndb5;Nb3|B33 Sicilian Defense: Lasker-Pelikan Variation
+----------|Ndb5|d6;h6|B33 Sicilian Defense: Lasker-Pelikan Variation
+-----------|d6|Bg5;Nd5|B33 Sicilian Defense: Lasker-Pelikan Variation
+------------|Bg5|a6;Be6|B33 Sicilian Defense: Lasker-Pelikan Variation
+-------------|a6|Na3;Bxf6|B33 Sicilian Defense: Lasker-Pelikan Variation
+--------------|Na3|b5;Be6|B33 Sicilian Defense: Lasker-Pelikan Variation
+---------------|b5|Nd5;Bxf6;Nab1|B33 Sicilian Defense: Lasker-Pelikan Variation, Sveshnikov Variation
+----------------|Nd5|Be7;Qa5+|B33 Sicilian Defense: Lasker-Pelikan Variation, Sveshnikov Variation, Chelyabinsk Variation
+-----------------|Be7|Bxf6;Nxe7|B33 Sicilian Defense: Lasker-Pelikan Variation, Sveshnikov Variation, Chelyabinsk Variation
+------------------|Bxf6|Bxf6;gxf6|B33 Sicilian Defense: Lasker-Pelikan Variation, Sveshnikov Variation, Chelyabinsk Variation
+-------------------|Bxf6|c3;c4|B33 Sicilian Defense: Lasker-Pelikan Variation, Sveshnikov Variation, Chelyabinsk Variation
+--------------------|c3|O-O|B33 Sicilian Defense: Lasker-Pelikan Variation, Sveshnikov Variation, Chelyabinsk Variation
+---------------------|O-O||B33 Sicilian Defense: Lasker-Pelikan Variation, Sveshnikov Variation, Chelyabinsk Variation
+--------------------|c4||B33 Sicilian Defense: Lasker-Pelikan Variation, Sveshnikov Variation, Chelyabinsk Variation
+-------------------|gxf6||B33 Sicilian Defense: Lasker-Pelikan Variation, Sveshnikov Variation, Chelyabinsk Variation
+------------------|Nxe7||B33 Sicilian Defense: Lasker-Pelikan Variation, Sveshnikov Variation, Chelyabinsk Variation
+-----------------|Qa5+||B33 Sicilian Defense: Lasker-Pelikan Variation, Sveshnikov Variation, Chelyabinsk Variation
+----------------|Bxf6|gxf6;Qxf6|B33 Sicilian Defense: Lasker-Pelikan Variation, Sveshnikov Variation
+-----------------|gxf6|Nd5;Nab1|B33 Sicilian Defense: Lasker-Pelikan Variation, Sveshnikov Variation
+------------------|Nd5|f5;Bg7|B33 Sicilian Defense: Lasker-Pelikan Variation, Sveshnikov Variation
+-------------------|f5|Bd3|B33 Sicilian Defense: Lasker-Pelikan Variation, Sveshnikov Variation
+--------------------|Bd3||B33 Sicilian Defense: Lasker-Pelikan Variation, Sveshnikov Variation
+-------------------|Bg7||B33 Sicilian Defense: Lasker-Pelikan Variation, Sveshnikov Variation
+------------------|Nab1||B33 Sicilian Defense: Lasker-Pelikan Variation, Sveshnikov Variation
+-----------------|Qxf6||B33 Sicilian Defense: Lasker-Pelikan Variation, Sveshnikov Variation
+----------------|Nab1||B33 Sicilian Defense: Lasker-Pelikan Variation, Sveshnikov Variation
+---------------|Be6||B33 Sicilian Defense: Lasker-Pelikan Variation
+--------------|Bxf6||B33 Sicilian Defense: Lasker-Pelikan Variation
+-------------|Be6||B33 Sicilian Defense: Lasker-Pelikan Variation
+------------|Nd5||B33 Sicilian Defense: Lasker-Pelikan Variation
+-----------|h6||B33 Sicilian Defense: Lasker-Pelikan Variation
+----------|Nb3||B33 Sicilian Defense: Lasker-Pelikan Variation
+---------|d6|Bg5;Bc4;Be2|B56 Sicilian Defense: Classical Variation
+----------|Bg5|e6;Bd7|B60 Sicilian Defense: Richter-Rauzer Variation
+-----------|e6|Qd2;Bb5|B62 Sicilian Defense: Richter-Rauzer Variation
+------------|Qd2|a6;Be7|B63 Sicilian Defense: Richter-Rauzer Variation, Traditional Variation
+-------------|a6|O-O-O;Be2|B66 Sicilian Defense: Richter-Rauzer Variation, Neo-Modern Variation, Early Deviations
+--------------|O-O-O|Bd7;h6|B66 Sicilian Defense: Richter-Rauzer Variation, Neo-Modern Variation, Early Deviations
+---------------|Bd7|f4|B67 Sicilian Defense: Richter-Rauzer Variation, Neo-Modern Variation
+----------------|f4||B67 Sicilian Defense: Richter-Rauzer Variation, Neo-Modern Variation
+---------------|h6||B66 Sicilian Defense: Richter-Rauzer Variation, Neo-Modern Variation, Early Deviations
+--------------|Be2||B66 Sicilian Defense: Richter-Rauzer Variation, Neo-Modern Variation, Early Deviations
+-------------|Be7||B63 Sicilian Defense: Richter-Rauzer Variation, Traditional Variation
+------------|Bb5||B62 Sicilian Defense: Richter-Rauzer Variation
+-----------|Bd7||B60 Sicilian Defense: Richter-Rauzer Variation
+----------|Bc4|e6|B57 Sicilian Defense: Sozin, not Scheveningen
+-----------|e6||B57 Sicilian Defense: Sozin, not Scheveningen
+----------|Be2||B56 Sicilian Defense: Classical Variation
+---------|e6||B33 Sicilian Defense: Open
+--------|Nxc6||B33 Sicilian Defense: Open
+-------|g6|c4;Nc3|B32 Sicilian Defense: Accelerated Dragon
+--------|c4|Bg7|B36 Sicilian Defense: Accelerated Dragon, Maróczy Bind
+---------|Bg7||B36 Sicilian Defense: Accelerated Dragon, Maróczy Bind
+--------|Nc3||B32 Sicilian Defense: Accelerated Dragon
+-------|e5|Nb5;Nb3|B32 Sicilian Defense: Löwenthal Variation
+--------|Nb5|d6;a6|B32 Sicilian Defense: Löwenthal Variation
+---------|d6|N1c3|B32 Sicilian Defense: Kalashnikov Variation
+----------|N1c3||B32 Sicilian Defense: Kalashnikov Variation
+---------|a6||B32 Sicilian Defense: Löwenthal Variation
+--------|Nb3||B32 Sicilian Defense: Löwenthal Variation
+-------|e6||B32 Sicilian Defense: Open
+------|c3||B32 Sicilian Defense: Open
+-----|g6||B32 Sicilian Defense: Open
+----|Bb5|g6;e6;d6|B30 Sicilian Defense: Nyezhmetdinov-Rossolimo Attack
+-----|g6|O-O;Bxc6;c3|B31 Sicilian Defense: Nyezhmetdinov-Rossolimo Attack, Fianchetto Variation
+------|O-O|Bg7;Nf6|B31 Sicilian Defense: Nyezhmetdinov-Rossolimo Attack, Fianchetto Variation
+-------|Bg7|Re1|B31 Sicilian Defense: Nyezhmetdinov-Rossolimo Attack, Fianchetto Variation
+--------|Re1||B31 Sicilian Defense: Nyezhmetdinov-Rossolimo Attack, Fianchetto Variation
+-------|Nf6||B31 Sicilian Defense: Nyezhmetdinov-Rossolimo Attack, Fianchetto Variation
+------|Bxc6|dxc6|B31 Sicilian Defense: Nyezhmetdinov-Rossolimo Attack, Fianchetto Variation
+-------|dxc6||B31 Sicilian Defense: Nyezhmetdinov-Rossolimo Attack, Fianchetto Variation
+------|c3||B31 Sicilian Defense: Nyezhmetdinov-Rossolimo Attack, Fianchetto Variation
+-----|e6|O-O|B30 Sicilian Defense: Nyezhmetdinov-Rossolimo Attack
+------|O-O||B30 Sicilian Defense: Nyezhmetdinov-Rossolimo Attack
+-----|d6||B30 Sicilian Defense: Nyezhmetdinov-Rossolimo Attack
+----|Nc3|g6|B30 Sicilian Defense: Old Sicilian
+-----|g6||B30 Sicilian Defense: Old Sicilian
+----|c3||B30 Sicilian Defense: Old Sicilian
+---|e6|d4;c3;Nc3;d3;b3|B40 Sicilian Defense: French Variation
+----|d4|cxd4;a6|B40 Sicilian Defense: French Variation
+-----|cxd4|Nxd4;c3|B40 Sicilian Defense: French Variation, Open
+------|Nxd4|a6;Nc6;Nf6;Qb6|B40 Sicilian Defense: French Variation, Open
+-------|a6|Bd3;Nc3;c4|B41 Sicilian Defense: Kan Variation
+--------|Bd3|Bc5|B42 Sicilian Defense: Kan Variation, Modern Variation
+---------|Bc5||B42 Sicilian Defense: Kan Variation, Modern Variation
+--------|Nc3|Qc7;b5|B43 Sicilian Defense: Kan Variation, Knight Variation
+---------|Qc7|Bd3|B43 Sicilian Defense: Kan Variation, Knight Variation
+----------|Bd3||B43 Sicilian Defense: Kan Variation, Knight Variation
+---------|b5||B43 Sicilian Defense: Kan Variation, Knight Variation
+--------|c4||B41 Sicilian Defense: Kan Variation
+-------|Nc6|Nc3;Nb5|B44 Sicilian Defense: Paulsen Variation
+--------|Nc3|Qc7;a6;d6|B45 Sicilian Defense: Paulsen Variation, Normal Variation
+---------|Qc7|Be3;Be2;g3|B47 Sicilian Defense: Paulsen Variation, Bastrikov Variation
+----------|Be3|a6;Nf6|B48 Sicilian Defense: Paulsen Variation, Bastrikov Variation
+-----------|a6|Qd2|B48 Sicilian Defense: Paulsen Variation, Bastrikov Variation
+------------|Qd2||B48 Sicilian Defense: Paulsen Variation, Bastrikov Variation
+-----------|Nf6||B48 Sicilian Defense: Paulsen Variation, Bastrikov Variation
+----------|Be2|a6;Nf6|B47 Sicilian Defense: Paulsen Variation, Bastrikov Variation
+-----------|a6|O-O;Be3|B47 Sicilian Defense: Paulsen Variation, Bastrikov Variation
+------------|O-O|Nf6|B47 Sicilian Defense: Paulsen Variation, Bastrikov Variation
+-------------|Nf6||B47 Sicilian Defense: Paulsen Variation, Bastrikov Variation
+------------|Be3||B47 Sicilian Defense: Paulsen Variation, Bastrikov Variation
+-----------|Nf6||B47 Sicilian Defense: Paulsen Variation, Bastrikov Variation
+----------|g3||B47 Sicilian Defense: Paulsen Variation, Bastrikov Variation
+---------|a6|Be2|B46 Sicilian Defense: Paulsen Variation
+----------|Be2||B46 Sicilian Defense: Paulsen Variation
+---------|d6||B45 Sicilian Defense: Paulsen Variation, Normal Variation
+--------|Nb5||B44 Sicilian Defense: Paulsen Variation
+-------|Nf6|Nc3;Bd3|B40 Sicilian Defense: French Variation, Normal
+--------|Nc3|d6;Nc6|B40 Sicilian Defense: French Variation, Normal
+---------|d6|g4|B80 Sicilian Defense: Scheveningen Variation
+----------|g4||B80 Sicilian Defense: Scheveningen Variation
+---------|Nc6||B40 Sicilian Defense: French Variation, Normal
+--------|Bd3||B40 Sicilian Defense: French Variation, Normal
+-------|Qb6||B40 Sicilian Defense: French Variation, Open
+------|c3||B40 Sicilian Defense: French Variation, Open
+-----|a6||B40 Sicilian Defense: French Variation
+----|c3|d5|B40 Sicilian Defense: Delayed Alapin Variation
+-----|d5||B40 Sicilian Defense: Delayed Alapin Variation
+----|Nc3|a6|B40 Sicilian Defense: French Variation
+-----|a6||B40 Sicilian Defense: French Variation
+----|d3|Nc6|B40 Sicilian Defense: French Variation
+-----|Nc6||B40 Sicilian Defense: French Variation
+----|b3||B40 Sicilian Defense: French Variation
+---|g6|d4;c3|B27 Sicilian Defense: Hyperaccelerated Dragon
+----|d4|cxd4|B27 Sicilian Defense: Hyperaccelerated Fianchetto
+-----|cxd4||B27 Sicilian Defense: Hyperaccelerated Fianchetto
+----|c3||B27 Sicilian Defense: Hyperaccelerated Dragon
+---|a6||B27 Sicilian Defense
+--|Nc3|Nc6;d6;e6;a6|B23 Sicilian Defense: Closed
+---|Nc6|g3;Bb5|B23 Sicilian Defense: Closed, Traditional
+----|g3|g6;e6|B24 Sicilian Defense: Closed, Fianchetto Variation
+-----|g6|Bg2;d3|B24 Sicilian Defense: Closed
+------|Bg2|Bg7;Rb8|B24 Sicilian Defense: Closed
+-------|Bg7|d3;Nge2|B24 Sicilian Defense: Closed
+--------|d3|d6|B24 Sicilian Defense: Closed
+---------|d6||B24 Sicilian Defense: Closed
+--------|Nge2||B24 Sicilian Defense: Closed
+-------|Rb8||B24 Sicilian Defense: Closed
+------|d3||B24 Sicilian Defense: Closed
+-----|e6||B24 Sicilian Defense: Closed, Fianchetto Variation
+----|Bb5||B23 Sicilian Defense: Closed, Traditional
+---|d6|f4|B23 Sicilian Defense: Closed
+----|f4||B23 Sicilian Defense: Closed
+---|e6|Nf3|B23 Sicilian Defense: Closed
+----|Nf3||B23 Sicilian Defense: Closed
+---|a6||B23 Sicilian Defense: Closed
+--|c3|Nf6;d5;e6|B22 Sicilian Defense: Alapin Variation
+---|Nf6|e5;d3|B22 Sicilian Defense: Alapin Variation
+----|e5|Nd5;Ng8|B22 Sicilian Defense: Alapin Variation
+-----|Nd5|d4;Nf3|B22 Sicilian Defense: Alapin Variation
+------|d4|cxd4;e6|B22 Sicilian Defense: Alapin Variation
+-------|cxd4|Nf3;cxd4|B22 Sicilian Defense: Alapin Variation, Smith-Morra Declined
+--------|Nf3|Nc6|B22 Sicilian Defense: Alapin Variation, Smith-Morra Declined
+---------|Nc6||B22 Sicilian Defense: Alapin Variation, Smith-Morra Declined
+--------|cxd4||B22 Sicilian Defense: Alapin Variation, Smith-Morra Declined
+-------|e6||B22 Sicilian Defense: Alapin Variation
+------|Nf3||B22 Sicilian Defense: Alapin Variation
+-----|Ng8||B22 Sicilian Defense: Alapin Variation
+----|d3||B22 Sicilian Defense: Alapin Variation
+---|d5|exd5;d3|B22 Sicilian Defense: Alapin Variation
+----|exd5|Qxd5;Nf6|B22 Sicilian Defense: Alapin Variation
+-----|Qxd5|d4;Nf3|B22 Sicilian Defense: Alapin Variation, Barmen Defense
+------|d4|Nf6;Nc6|B22 Sicilian Defense: Alapin Variation, Barmen Defense
+-------|Nf6|Nf3;Be3|B22 Sicilian Defense: Alapin Variation, Barmen Defense
+--------|Nf3|Bg4|B22 Sicilian Defense: Alapin Variation, Barmen Defense
+---------|Bg4||B22 Sicilian Defense: Alapin Variation, Barmen Defense
+--------|Be3||B22 Sicilian Defense: Alapin Variation, Barmen Defense
+-------|Nc6||B22 Sicilian Defense: Alapin Variation, Barmen Defense
+------|Nf3||B22 Sicilian Defense: Alapin Variation, Barmen Defense
+-----|Nf6||B22 Sicilian Defense: Alapin Variation
+----|d3||B22 Sicilian Defense: Alapin Variation
+---|e6||B22 Sicilian Defense: Alapin Variation
+--|d3||B20 Sicilian Defense
+-|e5|Nf3|C20 King's Pawn Game
+--|Nf3|Nc6|C40 King's Knight Opening
+---|Nc6|Bb5|C44 King's Knight Opening: Normal Variation
+----|Bb5|a6|C60 Ruy Lopez
+-----|a6|Ba4|C70 Ruy Lopez: Morphy Defense
+------|Ba4|Nf6|C70 Ruy Lopez: Morphy Defense
+-------|Nf6|O-O|C70 Ruy Lopez: Morphy Defense
+--------|O-O|Be7;b5|C78 Ruy Lopez: Morphy Defense
+---------|Be7|Re1;d3|C84 Ruy Lopez: Closed
+----------|Re1|b5;d6|C84 Ruy Lopez: Closed
+-----------|b5|Bb3;c3|C84 Ruy Lopez: Closed
+------------|Bb3|d6;O-O;Bb7|C88 Ruy Lopez: Closed
+-------------|d6|c3;a4|C88 Ruy Lopez: Closed
+--------------|c3|O-O;Na5|C88 Ruy Lopez: Closed
+---------------|O-O|h3;d4|C90 Ruy Lopez: Closed, Closed Defense
+----------------|h3|Na5;Nb8;Bb7;Re8|C92 Ruy Lopez: Closed
+-----------------|Na5|Bc2;d4|C92 Ruy Lopez: Closed
+------------------|Bc2|c5;d5|C96 Ruy Lopez: Closed, Closed Defense
+-------------------|c5|d4;d3|C96 Ruy Lopez: Closed, Closed Defense
+--------------------|d4|Qc7;Nd7|C96 Ruy Lopez: Closed, Closed Defense
+---------------------|Qc7|Nbd2;d5|C97 Ruy Lopez: Closed, Chigorin Defense
+----------------------|Nbd2|cxd4|C97 Ruy Lopez: Closed, Chigorin Defense
+-----------------------|cxd4||C97 Ruy Lopez: Closed, Chigorin Defense
+----------------------|d5||C97 Ruy Lopez: Closed, Chigorin Defense
+---------------------|Nd7||C96 Ruy Lopez: Closed, Closed Defense
+--------------------|d3||C96 Ruy Lopez: Closed, Closed Defense
+-------------------|d5||C96 Ruy Lopez: Closed, Closed Defense
+------------------|d4||C92 Ruy Lopez: Closed
+-----------------|Nb8|d4;d3|C94 Ruy Lopez: Morphy Defense, Breyer Defense
+------------------|d4|Nbd7;Bb7|C95 Ruy Lopez: Closed, Breyer
+-------------------|Nbd7|Nbd2;c4|C95 Ruy Lopez: Morphy Defense, Breyer Defense, Zaitsev Hybrid
+--------------------|Nbd2|Bb7;c5|C95 Ruy Lopez: Morphy Defense, Breyer Defense, Zaitsev Hybrid
+---------------------|Bb7|Bc2;a4|C95 Ruy Lopez: Morphy Defense, Breyer Defense, Zaitsev Hybrid
+----------------------|Bc2|Re8|C95 Ruy Lopez: Morphy Defense, Breyer Defense, Zaitsev Hybrid
+-----------------------|Re8||C95 Ruy Lopez: Morphy Defense, Breyer Defense, Zaitsev Hybrid
+----------------------|a4||C95 Ruy Lopez: Morphy Defense, Breyer Defense, Zaitsev Hybrid
+---------------------|c5||C95 Ruy Lopez: Morphy Defense, Breyer Defense, Zaitsev Hybrid
+--------------------|c4||C95 Ruy Lopez: Morphy Defense, Breyer Defense, Zaitsev Hybrid
+-------------------|Bb7||C95 Ruy Lopez: Closed, Breyer
+------------------|d3||C94 Ruy Lopez: Morphy Defense, Breyer Defense
+-----------------|Bb7|d4;d3|C92 Ruy Lopez: Closed, Flohr System
+------------------|d4|Re8;Nd7|C92 Ruy Lopez: Closed, Flohr System
+-------------------|Re8|Nbd2|C92 Ruy Lopez: Closed, Flohr System
+--------------------|Nbd2||C92 Ruy Lopez: Closed, Flohr System
+-------------------|Nd7||C92 Ruy Lopez: Closed, Flohr System
+------------------|d3||C92 Ruy Lopez: Closed, Flohr System
+-----------------|Re8||C92 Ruy Lopez: Closed
+----------------|d4||C90 Ruy Lopez: Closed, Closed Defense
+---------------|Na5||C88 Ruy Lopez: Closed
+--------------|a4||C88 Ruy Lopez: Closed
+-------------|O-O|c3;h3|C88 Ruy Lopez: Closed
+--------------|c3|d6|C88 Ruy Lopez: Closed
+---------------|d6||C88 Ruy Lopez: Closed
+--------------|h3||C88 Ruy Lopez: Closed
+-------------|Bb7||C88 Ruy Lopez: Closed
+------------|c3||C84 Ruy Lopez: Closed
+-----------|d6||C84 Ruy Lopez: Closed
+----------|d3||C84 Ruy Lopez: Closed
+---------|b5|Bb3|C78 Ruy Lopez: Morphy Defense
+----------|Bb3|Bb7|C78 Ruy Lopez: Morphy Defense
+-----------|Bb7||C78 Ruy Lopez: Morphy Defense

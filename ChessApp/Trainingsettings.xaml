@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ChessApp.Trainingsettings"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout BackgroundColor="#777777">
+                <StackLayout BackgroundColor="#777777" VerticalOptions="Fill" Margin="20,10,20,10" Spacing="0">
+
+                    <Frame BackgroundColor="#333333" Padding="10,5,10,20" CornerRadius="10">
+                        <StackLayout VerticalOptions="StartAndExpand">
+                            <Label Text="Team" TextColor="White" FontAttributes="Bold" TextDecorations="Underline" FontSize="20" Padding="10" HorizontalTextAlignment="Center"/>
+                            <Image x:Name="team_image" Aspect="AspectFit" HeightRequest="60" Source="">
+                                <Image.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="OnSwitchTeam" NumberOfTapsRequired="1"/>
+                                </Image.GestureRecognizers>
+                            </Image>
+                        </StackLayout >
+                    </Frame>
+                    <Frame Padding="5" Opacity="0"/>
+
+                    <Frame BackgroundColor="#333333" Padding="10,5,10,20" CornerRadius="10">
+                        <StackLayout VerticalOptions="StartAndExpand">
+                            <Label Text="Lines Database" TextColor="White" FontAttributes="Bold" TextDecorations="Underline" FontSize="20" Padding="10" HorizontalTextAlignment="Center"/>
+                            <Frame Padding="5" Opacity="0"/>
+                            <Picker x:Name="db_picker" Title="Database" BackgroundColor="#555555" TextColor="White" FontSize="16" HorizontalTextAlignment="Center"/>
+                            <Frame BackgroundColor="#555555" Padding="0,1,0,1" CornerRadius="0">
+                                <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                                    <Label Text="Dead-End Pruning" TextColor="White" FontSize="16" Padding="10" HorizontalTextAlignment="Center"/>
+                                    <Switch x:Name="is_pruning" IsToggled="true" />
+                                    <Label Text="Repetition Pruning" TextColor="White" FontSize="16" Padding="10" HorizontalTextAlignment="Center"/>
+                                    <Switch x:Name="is_repetition" IsToggled="true" />
+                                </StackLayout >
+                            </Frame >
+                        </StackLayout >
+                    </Frame>
+                    <Frame Padding="5" Opacity="0"/>
+
+                    <Frame BackgroundColor="#333333" Padding="10,5,10,20" CornerRadius="10">
+                        <StackLayout VerticalOptions="StartAndExpand">
+                            <Label Text="Gameplay" TextColor="White" FontAttributes="Bold" TextDecorations="Underline" FontSize="20" Padding="10" HorizontalTextAlignment="Center"/>
+                            <Frame Padding="0" Opacity="0"/>
+                            <Slider x:Name="increment_slider" Minimum="0.1" Maximum="2" Value="1.5" VerticalOptions="CenterAndExpand" />
+                            <Label Text="{Binding Path=Value, StringFormat='Pop-up time: {0}s'}" BindingContext="{x:Reference Name=increment_slider}"  TextColor="White" FontSize="16" VerticalOptions="CenterAndExpand" HorizontalTextAlignment="Center"/>
+                        </StackLayout >
+                    </Frame>
+                    <Frame Padding="5" Opacity="0"/>
+
+                    <Button Text="Single Line Training" BackgroundColor="#333333" BorderColor="White" BorderWidth="1" FontSize="18" TextColor="#EEEEEE" Padding="10" CornerRadius="10"  Clicked="OnSingleLine"/>
+                    <Frame Padding="5" Opacity="0"/>
+                    <Button Text="All Lines Training" BackgroundColor="#333333" BorderColor="White" BorderWidth="1" FontSize="18" TextColor="#EEEEEE" Padding="10" CornerRadius="10"  Clicked="OnAllLines"/>
+                    <Frame Padding="5" Opacity="0"/>
+                    <Button Text="Show Training scores" BackgroundColor="#333333" BorderColor="White" BorderWidth="1" FontSize="18" TextColor="#EEEEEE" Padding="10" CornerRadius="10"  Clicked="OnShowScores"/>
+                
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
